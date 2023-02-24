@@ -20,7 +20,6 @@ function encryptText() {
     var e = new XMLHttpRequest;
     e.open("GET", "https://keyelo.github.io/Yonose/key/wydor.txt"), e.onload = function() {
         var t = e.responseText;
-        console.log(t);
         var n = t + t + t,
             o = $("#keyN1").val(),
             l = $("#keyN2").val();
@@ -47,9 +46,8 @@ function showDecryptedText() { decryptText(); var e = document.getElementById("d
 
 function decryptText() {
     var e = new XMLHttpRequest;
-    e.open("GET", "https://keyelo.github.io/Yonose_Encryptor/key/wydor.txt"), e.onload = function() {
+    e.open("GET", "https://keyelo.github.io/Yonose/key/wydor.txt"), e.onload = function() {
         var t = e.responseText;
-        console.log(t);
         var n = t + t + t,
             o = $("#keyN1").val(),
             l = $("#keyN2").val();
