@@ -1,0 +1,90 @@
+html {
+    background-color: #161618;
+}
+
+.p-white {
+    color: white;
+}
+
+.navbar-brand {
+    font-family: 'Black Ops One', cursive;
+}
+
+.navbar {
+    border-bottom: solid 0.7px #333336;
+}
+
+.footer {
+    display: block;
+    border-top: solid 0.7px #333336;
+    background-color: #161618 !important;
+}
+
+.bgcolour-twitter {
+    background-color: #161618;
+}
+
+.bgcolour-twitter-l {
+    background-color: #161618;
+}
+
+.bgcolour-twitter-Dark {
+    background-color: #161618;
+}
+
+.viewport {
+    max-width: 640px;
+    margin: auto;
+}
+
+hr {
+    border: solid 0.7px #333336;
+    width: 100%;
+}
+
+.marginauto {
+    display: block;
+    margin: auto;
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    outline: white;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+}
+
+footer>a:link {
+    text-decoration: none;
+}
+
+footer>a:hover {
+    text-decoration: underline;
+}
+
+.banner-img {
+    position: fixed;
+    width: 100%;
+    opacity: 0.2;
+}
+
+@font-face {
+    font-family: yonoseFont;
+    src: url(../fonts/UKNP.ttf);
+}
